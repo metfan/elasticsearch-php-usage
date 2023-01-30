@@ -1,0 +1,23 @@
+{
+    "name": "metfan/elasticsearch-php-usage",
+    "description": "Example usage of elasticsearch-php lib with symfony",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Metfan\\LibSearch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ulrich"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "symfony/console": "^6.1",
+        "twig/twig": "^3.0",
+        "elasticsearch/elasticsearch": "^8.0.0",
+        "webmozart/assert": "^1.11"
+    }
+}
